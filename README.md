@@ -1,7 +1,7 @@
 ### dashboard_lista_recibos :zap:
 
 *****
-Aplicación que con un crud y lista de usuarios que visualizar una lista de recibos
+Aplicación que con un crud, qué además permite conectar a un usuario para visualizar una lista de recibos
 
 
 
