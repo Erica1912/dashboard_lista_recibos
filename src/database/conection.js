@@ -23,4 +23,14 @@ const dbSettings = {
   port: 1433,
 };
 
-sql.connect(dbSettings)
+export async function getConetion() {
+    try{
+        const pool = await sql.connect(dbSetings);
+        return pool;        
+    }
+    catch(err){
+        console.log(err);
+    }
+}
+
+getConetion()
