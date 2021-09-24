@@ -1,10 +1,9 @@
 ### dashboard_lista_recibos :zap:
 
 *****
-Aplicación que permita crear, modificar y visualizar una lista de recibos
+Aplicación que con un crud y lista de usuarios que visualizar una lista de recibos
 
 
-Crear un crud que conecte a una bd sql server con node.
 
 Hacer consultas básicas del CRUD usando el módulo de npm llamado "pg", el cual nos permite manejar las consultas usando promesas o async/await.
 
