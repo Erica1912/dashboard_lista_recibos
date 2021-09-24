@@ -1,6 +1,7 @@
 import sql from 'mssql'
 
-const dbSettings = {
+
+const dbSetings = {
     authentication: {
         type: 'default',
         options: {
@@ -21,16 +22,18 @@ const dbSettings = {
     },
   server: "DESKTOP-LQ3GR66",
   port: 1433,
+       
+  
 };
 
-export async function getConetion() {
+export async function getConection() {
     try{
         const pool = await sql.connect(dbSetings);
         return pool;        
-    }
-    catch(err){
-        console.log(err);
+    }catch(err){
+        console.log(err)
     }
 }
 
-getConetion()
+
+

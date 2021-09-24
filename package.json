@@ -2,7 +2,6 @@
   "name": "dashboard_lista_recibos",
   "version": "1.0.0",
   "description": "Aplicación que permita crear, modificar y visualizar una lista de recibos",
-  
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js --exec babel-node"
@@ -23,7 +22,8 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "morgan": "^1.10.0",
-    "mssql": "^7.2.1"
+    "mssql": "^7.2.1",
+    "tedious": "^12.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
