@@ -1,4 +1,6 @@
-# dashboard_lista_recibos
+### dashboard_lista_recibos :zap:
+
+*****
 Aplicación que permita crear, modificar y visualizar una lista de recibos
 
 
