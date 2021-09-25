@@ -1,5 +1,6 @@
-@api = http://localhost:3000/recibo
+@api = http://localhost:3001/recibo
 
+// tienes 3001 pa cuando no haya, pero aca tienes 3k..
 
 GET {{api}}
 ###
@@ -19,6 +20,8 @@ Content-Type: application/json
 }
 
 ###
-GET {{api}}/10014
+GET {{api}}/4
 
+###
+DELETE {{api}}/10020
 

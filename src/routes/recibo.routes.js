@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { createNewRec, getRecibo, getRecById } from "../controllers/recibo.controllers";
+import { createNewRec, getRecibo, getRecById, deleteIdRec} from "../controllers/recibo.controllers";
 
 
 
@@ -13,7 +13,7 @@ router.post("/recibo", createNewRec );
 router.get("/recibo/:CONSECUTIVOS", getRecById);
 
 
-router.delete("/recibo", );
+router.delete("/recibo/:CONSECUTIVOS", deleteIdRec);
 
 
 router.put("/recibo", );

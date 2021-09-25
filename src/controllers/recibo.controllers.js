@@ -53,12 +53,34 @@ export const createNewRec = async (req, res) => {
 };
 
 export const getRecById = async (req, res) => {
-  const { CONSECUTIVOS } = req.params;
-  const pool = await getConection();
-  const result = await pool
-    .request()
-    .input("CONSECUTIVO", CONSECUTIVOS)
-    .query(queries.getIdRec);
-  res.send(result.recordsets[0]);
-  
+  console.log("xdtest")
+  try {
+    const { CONSECUTIVOS } = req.params;
+    const pool = await getConection();
+    const result = await pool
+      .request()
+      .input("CONSECUTIVO", CONSECUTIVOS)
+      .query(queries.getIdRec);
+    res.send(result.recordsets[0]);
+  } catch (error) {
+    res.status(500);
+    res.send(error.messages);
+  }
+};
+
+export const deleteIdRec = async (req, res) => {
+  try {
+    const { CONSECUTIVOS } = req.params;
+    const pool = await getConection();
+    const result = await pool
+      .request()
+      .input("CONSECUTIVOS", CONSECUTIVOS)
+      .query(queries.deleteIdRec);
+    console.log(result)
+    res.sendStatus(204);
+  } catch (error) {
+    console.log("er" ,error);
+    res.send(error.messages);
+    res.status(500);
+  }
 };

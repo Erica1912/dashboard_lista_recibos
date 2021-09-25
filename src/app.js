@@ -4,7 +4,7 @@ import reciboRouter from "./routes/recibo.routes";
 
 const app = express();
 
-app.set("port", config.portport || 3000);
+app.set("port", config.portport || 3001);
 
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
