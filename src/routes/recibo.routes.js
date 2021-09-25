@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getRecibo } from "../controllers/recibo.controllers";
+import { createNewRec, getRecibo, getRecById } from "../controllers/recibo.controllers";
 
 
 
@@ -7,9 +7,10 @@ const router = Router();
 router.get("/recibo", getRecibo);
 
 
-router.post("/recibo", );
+router.post("/recibo", createNewRec );
 
-router.get("/recibo", getRecibo);
+//recibe el id para ver el recibo 
+router.get("/recibo/:CONSECUTIVOS", getRecById);
 
 
 router.delete("/recibo", );

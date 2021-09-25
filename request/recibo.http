@@ -1,0 +1,24 @@
+@api = http://localhost:3000/recibo
+
+
+GET {{api}}
+###
+
+POST {{api}}
+Content-Type: application/json
+
+{
+    "ESTADO": "Compra",
+    "TITULAR": "Fernando",
+    "PESO": "30",
+    "FECHA_CREADO": "15/08/2021",
+    "PRECIO": 3000,
+    "PRECIO_U": 50,
+    "CREADO": 1,
+    "DIRECCION": "calle 123"
+}
+
+###
+GET {{api}}/10014
+
+

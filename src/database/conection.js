@@ -9,13 +9,13 @@ const dbSetings = {
             password: "admin123",
         }
     },
+    database: 'HASS_COLOMBIA',
     options: {
         encrypt: true,
         enableArithAbort: true,
         integratedSecurity: true,
         trustServerCertificate: true,
         rowCollectionOnDone: true,
-        database: 'HASS_COLOMBIA',
         cryptoCredentialsDetails: {
             minVersion: 'TLSv1'
         }
@@ -34,6 +34,6 @@ export async function getConection() {
         console.log(err)
     }
 }
-
+ export {sql};
 
 
