@@ -1,11 +1,15 @@
 ### dashboard_lista_recibos :zap:
 
 *****
-Aplicación que con un crud, qué además permite conectar a un usuario para visualizar una lista de recibos
+Aplicación que permite conectarse y visualizar los resultados una lista de recibos.
 
+*****
+Se divide la lógica del Backend y el Frontend.
 
+#### Backend :back:
 
-Hacer consultas básicas del CRUD usando el módulo de npm llamado "pg", el cual nos permite manejar las consultas usando promesas o async/await.
+Hacer consultas básicas del CRUD usando:
+
 
 #### Instalaciones :computer:
 
