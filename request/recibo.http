@@ -1,6 +1,5 @@
 @api = http://localhost:3001/recibo
 
-// tienes 3001 pa cuando no haya, pero aca tienes 3k..
 
 GET {{api}}
 ###
@@ -25,3 +24,22 @@ GET {{api}}/4
 ###
 DELETE {{api}}/10020
 
+
+###
+GET {{api}}/count
+
+
+###
+PUT {{api}}/6
+Content-Type: application/json
+
+{
+    "ESTADO": "Liquidado",
+    "TITULAR": "Luis",
+    "PESO": "30",
+    "FECHA_CREADO": "15/08/2021",
+    "PRECIO": 3000,
+    "PRECIO_U": 50,
+    "CREADO": 1,
+    "DIRECCION": "calle 123"
+}
