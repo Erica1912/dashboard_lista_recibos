@@ -22,7 +22,7 @@ Hacer consultas básicas del CRUD usando:
 
 Después de tener instalado el Node JS creamos el archivo package.json con los comandos
 
-```python
+```node
 npm init -y
 ```
 
