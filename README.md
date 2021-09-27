@@ -38,5 +38,10 @@ Intalaremos algunos módulos que vamos a necesitar para crear nuestro crud
 npm install mssql express morgan  cors dotenv
 ```
 
+***Frontend***
+
+
+Se encuentra ubicado dentro del mismo repositorio en el proyecto [Frontend](https://github.com/Erica1912/lista_recibos_frontend)
+para separar las lógicas, del backend y el frontend
 
 **Erica Ruiz**
