@@ -10,16 +10,16 @@ Content-Type: application/json
 {
     "ESTADO": "Compra",
     "TITULAR": "Fernando",
-    "PESO": "30",
-    "FECHA_CREADO": "15/08/2021",
+    "PESO": "30",   
     "PRECIO": 3000,
     "PRECIO_U": 50,
     "CREADO": 1,
-    "DIRECCION": "calle 123"
+    "DIRECCION": "calle 123",
+     "FECHA_CREADO": "2021-09-25",
 }
 
 ###
-GET {{api}}/4
+GET {{api}}/8
 
 ###
 DELETE {{api}}/10020
@@ -36,10 +36,10 @@ Content-Type: application/json
 {
     "ESTADO": "Liquidado",
     "TITULAR": "Luis",
-    "PESO": "30",
-    "FECHA_CREADO": "15/08/2021",
+    "PESO": "30",    
     "PRECIO": 3000,
     "PRECIO_U": 50,
     "CREADO": 1,
-    "DIRECCION": "calle 123"
+    "DIRECCION": "calle 123",
+    "FECHA_CREADO": "2021-09-25",
 }

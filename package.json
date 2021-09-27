@@ -4,8 +4,9 @@
   "description": "Aplicación que permita crear, modificar y visualizar una lista de recibos",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js --exec babel-node",
-    "babel-node": "babel-node --presets=env",   "start": "nodemon --exec npm run babel-node -- ./src/index.js",   "build": "babel src -d dist"
+    "dev": "nodemon src/index.js --exec babel-node",  
+    "build": "babel src -d dist"
+
   },
   "repository": {
     "type": "git",
