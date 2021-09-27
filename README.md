@@ -8,14 +8,16 @@ Se divide la lógica del Backend y el Frontend.
 
 #### Backend :back:
 
-Hacer consultas básicas del CRUD usando:
+- Conectar la Base de datos
+- Hacer consultas básicas del CRUD
+- Hacer las funciones del CRUD
 
 
 #### Instalaciones :computer:
 
 1. Node JS :heavy_check_mark:
 2. Sql Server :heavy_check_mark: 
-3. Bootstrap :heavy_check_mark:
+
 
 
 #### Comandos :computer:
@@ -38,8 +40,9 @@ Intalaremos algunos módulos que vamos a necesitar para crear nuestro crud
 npm install mssql express morgan  cors dotenv
 ```
 
-***Frontend***
+Se genera una API REst para que el Frontend lo pueda consumir, a través del localhost
 
+***Frontend***
 
 Se encuentra ubicado dentro del mismo repositorio en el proyecto [Frontend](https://github.com/Erica1912/lista_recibos_frontend)
 para separar las lógicas, del backend y el frontend
